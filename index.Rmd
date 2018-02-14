@@ -1,5 +1,5 @@
 ---
-title: "The future of quantitative developmental science"
+title: "The bright future of quantitative developmental science"
 author: "Rick O. Gilmore"
 date: "`r Sys.time()`"
 output:
@@ -30,10 +30,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" height=250px>
-<img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" height=250px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/NSF_Logo.PNG" height=150px>
+<img src="https://science.nichd.nih.gov/confluence/download/attachments/34472103/NICHD-vertical-2-color.png?version=1&modificationDate=1477410070000&api=v2" height=150px>
 </br>
-<img src="https://sloan.org/storage/app/media/Logos/Sloan-Logo-stacked-black-web.png" height-250px>
+<img src="https://sloan.org/storage/app/media/Logos/Sloan-Logo-stacked-black-web.png" height=150px>
+<img src="http://newsroom.unl.edu/announce/files/file77330.jpg" height=150px/>
+<img src="https://www.unicef.org.hk/wp-content/uploads/2017/08/Logo-05_Lego-foundation_UNICEF_partnership.jpg" height=150px />
 
 <div class="notes">
 I thank NSF, NICHD, SRCD, and the Sloan Foundation for support.
@@ -41,10 +43,10 @@ I thank NSF, NICHD, SRCD, and the Sloan Foundation for support.
 
 ## Overview
 
-- The reproducibility "crisis"
-- The "crisis" in behavioral science
-- "Big data" behavioral science is computationally intensive
-- The bright future of quantitative developmental science
+- A temperature-check about open science
+- Is the 'crisis' in behavioral science also sinful?
+- Behavioral science is "big data" science
+- Quantitative developmental science has a bright future
 - Let's not waste a "good" crisis
 
 ---
@@ -57,7 +59,97 @@ I thank NSF, NICHD, SRCD, and the Sloan Foundation for support.
 <img src="img/sleic.jpg" height=100px/>
 <img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" height=100px>
 
-# The reproducibility "crisis"
+# A temperature check about reproducibility and open science
+
+## Developmental science could be more open & transparent
+
+
+### Agree | Disagree
+
+## Developmental science *should* be more open and transparent
+
+
+### Agree | Disagree
+
+## Openness and transparency are related to research robustness (e.g., reproducibility, reliability, impact)
+
+
+### Agree | Disagree
+
+## Data from developmental research should be more widely and readily available
+
+
+### Agree | Disagree
+
+## Methods and materials used in developmental research should be more widely and readily available
+
+
+### Agree | Disagree
+
+## I have used data shared by others
+
+
+### Agree | Disagree
+
+## If data from publication X or project Y were more widely and readily available, I would use it
+
+
+### Agree | Disagree
+
+## Unless there are privacy or contractual limitations, data files described in published papers should be readily available in forms reusable by others
+
+
+### Agree | Disagree
+
+## I use video or audio recordings in my teaching
+
+
+### Agree | Disagree
+
+## I use video or audio recordings in my current research
+
+
+### Agree | Disagree
+
+## I can imagine using video or audio recordings in my research
+
+
+### Agree | Disagree
+
+## I use video or audio recordings to document my research procedures
+
+
+### Agree | Disagree
+
+## I could envision using video or audio recordings to document my research procedures
+
+
+### Agree | Disagree
+
+## It's hard to find and access data that I might want to repurpose
+
+
+### Agree | Disagree
+
+## Once found and accessed, there can be a huge cost in "harmonizing" data from different sources
+
+
+### Agree | Disagree
+
+## Developments in machine learning, computer vision and related fields are interesting to me
+
+
+### Agree | Disagree
+
+## I would be interested in using machine learning, computer vision, or related tools in my research under the right circumstances
+
+
+### Agree | Disagree
+
+## I employ reproducible practices and tools (e.g., SPSS or SAS syntax, R code, Jupyter notebooks) in my research workflows
+
+
+### Agree | Disagree
 
 ## Is there a reproducibility crisis?
 
@@ -147,7 +239,7 @@ These definitions help put some of the presumed causes into perspective.
 
 ## Reproducibility crisis
 
-- Not just psychology
+- Not just behavioral sciences
 - "Hard" sciences, too
 - Data collection to statistical analysis to reporting to publishing
 
@@ -163,7 +255,7 @@ Indeed, the NPR science reporter Richard Harris in a book published earlier this
 But rather than cast aspersions on other fields, let me own the sins of my own.
 </div>
 
-# The crisis in behavioral science
+# Is the crisis in behavioral science also sinful?
 
 ---
 
@@ -206,6 +298,14 @@ So, this means that we may not know what we think we know.
 </div>
 
 ## The sin of hoarding...
+
+<div class="centered">
+<img src="http://www.clubbinghouse.com/images/photos/covers/20080403153957.jpg" height=450px/>
+
+...grants, ...students, ...data
+</div>
+
+---
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/wicherts_2006_amp_61_7_726_fig1a.jpg" height=500px>
@@ -284,6 +384,14 @@ But a careful, post-publication re-evaluation showed that Bem had made a number 
 ## The sin of hurrying...
 
 <div class="centered">
+<a href="http://doi.org/10.3758/s13428-015-0664-2)">
+<img src="img/nuijten-etal.jpg" height=450px/>
+</a>
+</div>
+
+---
+
+<div class="centered">
 <img src="https://static-content.springer.com/image/art%3A10.3758%2Fs13428-015-0664-2/MediaObjects/13428_2015_664_Fig3_HTML.gif" height=550px>
 </div>
 
@@ -291,6 +399,24 @@ But a careful, post-publication re-evaluation showed that Bem had made a number 
 
 <div class="notes">
 Statistical reporting errors in the published literature are more common that many might think.
+</div>
+
+## The sin of narrowmindedness...
+
+> "...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s."
+
+[Walter Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)
+
+## The sin of pragmatism...
+
+> "Reviewers and editors want novel, interesting results. Why would I waste my time doing careful direct replications?"
+
+Any number of researchers I've talked with
+
+---
+
+<div class="centered">
+<img src="https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif" height=550px>
 </div>
 
 ## In our defense...
@@ -319,17 +445,17 @@ Your browser does not support the video tag.
 
 ## Humans are diverse
 
-- But much (lab-based) data collected are from **W**estern, **E**ducated **I**ndustrialized, **R**ich, **D**emocratic (WEIRD) populations [Henrich et al., 2010](http://doi.org/10.1017/S0140525X0999152X)
+But much (lab-based) data collected are from **W**estern, **E**ducated **I**ndustrialized, **R**ich, **D**emocratic (WEIRD) populations [Henrich et al., 2010](http://doi.org/10.1017/S0140525X0999152X)
 
----
+<!-- --- -->
 
-<div class="centered">
-<img src="http://www.evoanth.net/wp-content/uploads/2014/12/psychologyweird.png" height=500px>
-</br>
-<small><http://www.evoanth.net/2015/01/06/evolutionary-psychology-has-problems-and-it-isnt-getting-better/></small>
-</div>
+<!-- <div class="centered"> -->
+<!-- <img src="http://www.evoanth.net/wp-content/uploads/2014/12/psychologyweird.png" height=500px> -->
+<!-- </br> -->
+<!-- <small><http://www.evoanth.net/2015/01/06/evolutionary-psychology-has-problems-and-it-isnt-getting-better/></small> -->
+<!-- </div> -->
 
-## Data sensitive, hard(er) to share
+## Data about humans are sensitive, hard(er) to share
 
 - Protect participant's identities
 - Protect from harm/embarrassment
@@ -349,7 +475,14 @@ Your browser does not support the video tag.
 <img src="https://raw.githubusercontent.com/gilmore-lab/sips-2017-databservatory/master/img/psych-harder-2.jpg" width=800px/>
 </div>
 
-# Big data computation in psychological science
+## Beyond sin
+
+- No physics envy, but we can learn from physics
+- Openness and transparency are means, not the ends
+- How do we accelerate, broaden, and deepen discovery?
+- Fixing the past vs. building the future
+
+# Behavioral science is "big data" science
 
 ## "Mind-reading" in fMRI
 
@@ -742,50 +875,186 @@ f^2+y^2 & -xy & -fy
 
 Kitzes, J., Turek, D., & Deniz, F. (Eds.). (2018). The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences. Oakland, CA: University of California Press. [E-book](https://www.gitbook.com/book/bids/the-practice-of-reproducible-research/details).
 
-## Shared materials, code, raw data
+## **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR) data and materials 
 
-<div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/sips-2017-databservatory/master/img/databrary.splash.jpg"
-</br>
-<small>[databrary.org](http://databrary.org)</small>
-</div>
+Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, *3*, 160018. Retrieved from http://dx.doi.org/10.1038/sdata.2016.18
 
-## How Databrary is distinctive
+---
+
+<a href="http://databrary.org">
+<img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" height=200px/>
+</a>
+
+Funded NSF (2012-16), NICHD (2013-18), SRCD (2014-16), & Sloan Fdn (2017-18)
+
+Opened spring 2014
+
+Approaching 1,000 researchers (690+ PIs + 300+ affiliates), 380+ institutions
+
+540+ data/stimulus sets (~20% shared), 13,900+ hours
+
+---
+
+<img src="http://datavyu.org/theme/img/logo/datavyu.png" height=150px/> 
+
+Free, open-source, multi-platform video/audio coding tool
+
+Windows OS fix nearly complete
+
+Updates for transcription
+
+## How Databrary differs
 
 - Open sharing among *authorized researchers*, not public
-- Share identifiable data *with permission*
+- Share with *community* of researchers, not study-by-study
+- Share identifiable data *with permission* via consistent access levels
+
+## How Databrary differs
+
 - Store, search across, filter among participant & session characteristics
 - Active (during study) curation reduces *post hoc* burden
-- [Gilmore, Kennedy, & Adolph, 2017](http://psyarxiv.com/kew8u)
-
-## Databrary's future
-
-- Large-scale video-centered research on natural infant behavior, the [Play & Learning Across a Year (PLAY) project](https://gilmore-lab.github.io/2018-01-26-p2c/#/play-learning-across-a-year-play-project)
-- Infrastructure for scientific process management (LabNanny)
-- Bringing [machine learning](https://gilmore-lab.github.io/2018-01-26-p2c/#/how-infrastructure-can-enable-open-transparent-and-reproducible-big-data-developmental-science), computer vision to behavioral scientists
-
-## Barriers to reproducibility
-
-- Technological
-- Cultural
+- Gilmore, R. O., Kennedy, J. L., & Adolph, K. E. (2018). Practical Solutions for Sharing Data and Materials From Psychological Research. *Advances in Methods and Practices in Psychological Science*, <https://doi.org/10.1177/2515245917746500>
 
 ---
 
 <div class="centered">
-<img src="https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif" height=550px>
+<img src="img/databrary-world-map.jpg" height=450px/>
+</div>
+
+## Play & Learning Across a Year (PLAY) Project
+
+---
+
+### Play is the central context and activity of early development
+
+---
+
+### What do parents and infants actually *do* when they play?
+
+---
+
+<div class="centered">
+<video width="750" height="500" controls >
+  <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Webinar discussions on protocol and coding. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/232
 </div>
 
 ---
 
-> "...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s."
-
-[Walter Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)
+<div class="centered">
+<video width="750" height="500" controls >
+  <source src="https://nyu.databrary.org/slot/14167/381504,4603862/asset/59930/download?inline=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Materials. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/254.
+</div>
 
 ---
 
-> "Reviewers and editors want novel, interesting results. Why would I waste my time doing careful direct replications?"
+<div class="centered">
+<img src="img/PLAY-site-map.jpg" height=450px/>
+</div>
 
-Any number of researchers I've talked with
+---
+
+- $n=900$ infant/mother dyads; 300 @ 12-, 18-, 24-months
+- 30 dyads from 30 sites across the US
+- 1 hr natural activity 
+    - 3 min solitary toy play 
+    - 2 min dyadic toy play
+    - video tour of home
+
+---
+
+- Videos coded for
+    - [Emotional expression](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/emotion)
+    - [Object interaction](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual3)
+    - Physical activity & [locomotion](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual4)
+    - [Full transcript](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/transcription), [Communication](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/manual2), and [Gesture](https://dev1.ed-projects.nyu.edu/wikis/docuwiki/doku.php/gesture)
+- Enhancements to [Datavyu](http://datavyu.org) for transcription, CHAT compatibility, Windows support
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/video-coding/blob/master/video-code-file-export-cleaning_files/figure-markdown_github/loc-time-series-baby-1.png?raw=true" height=500px>
+
+<https://github.com/PLAY-behaviorome/video-coding>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/video-coding/blob/master/video-code-file-export-cleaning_files/figure-markdown_github/voc.type-1.png?raw=true" height=500px>
+
+<https://github.com/PLAY-behaviorome/video-coding>
+</div>
+
+---
+
+### Demographics + parent-report questionnaires about health, family, temperament, vocabulary
+
+---
+
+### Ambient sound levels
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/ambient-sound/blob/master/ambient-sound-ny-pilot_files/figure-markdown_github/plots-by-sub-db.avg-1.png?raw=true" height=500px>
+</div>
+
+---
+
+### Census block group geocoding
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/site-demographics/blob/master/img/income-rent-region-1.png?raw=true" height=500px>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://github.com/PLAY-behaviorome/site-demographics/blob/master/img/black-hispanic-region-1.png?raw=true" height=500px>
+</div>
+
+---
+
+- Data openly shared on Databrary
+    - Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Materials. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/254.
+    - Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2017). PLAY Pilot Data Collections. Databrary. Retrieved January 24, 2018 from https://nyu.databrary.org/volume/444
+
+---
+
+### Video as data **AND** documentation
+
+---
+
+<div class="centered">
+<a href="http://www.apa.org/science/about/psa/2017/10/video-data.aspx">
+<img src="img/video-as-data-doc.jpg" height=500px/>
+</div>
+
+---
+
+<div class="centered">
+<a href="https://dev1.ed-projects.nyu.edu/wikis/docuwiki">
+<img src="https://github.com/gilmore-lab/sips-2017-video-reproducibility/blob/master/img/play-wiki.jpg?raw=true" height=500px>
+</a>
+</div>
+
+## What questions would *you* ask about these sorts of data?
+
+## How could the data be made maximimally (re)useful?
+
+## On the horizon..
+
+- Scientific process management (LabNanny), project sync, dataset cloning
+- Bringing [machine learning](https://gilmore-lab.github.io/2018-01-26-p2c/#/how-infrastructure-can-enable-open-transparent-and-reproducible-big-data-developmental-science), computer vision to behavioral scientists
 
 # Let's not waste a "good" crisis
 
@@ -980,6 +1249,14 @@ Your browser does not support the video tag.
 
 Boker, S. M., Brick, T. R., Pritikin, J. N., Wang, Y., von Oertzen, T., Brown, D., Lach, J., et al. (2015). Maintained Individual Data Distributed Likelihood Estimation (MIDDLE). Multivariate behavioral research, 50(6), 706–720. Taylor & Francis. Retrieved from http://dx.doi.org/10.1080/00273171.2015.1094387
 
+## Compete over findings, not participants...
+
+<div class="centered">
+<img src="img/recruit-posters.jpg" height=250px/>
+<img src="img/psych-pool.jpg" height=250px/>
+</div>
+
+
 ## Progress
 
 | Example | Multi-measure | Indiv link/search | Visualize | Self-curate | Permissions |
@@ -1031,6 +1308,11 @@ But where we take off our opaque glasses and embrace the whole glorious animal.
 
 <div class="notes">
 Let's build it here.
+</div>
+
+---
+<div class="centered">
+<img src="https://amindinfinite.files.wordpress.com/2014/05/bright-future-ahead-sm.jpg" height=450px/>
 </div>
 
 ## Keep in touch {.vcenter .flexbox}
